@@ -9,6 +9,8 @@ function calcular () {
     var numb3 =window.document.getElementById("n3")
     var res= window.document.getElementById ("res")
     
+
+
     if (numb1.value.length ==0 || numb2.value.length ==0 || numb3.value==0) {
             alert (`ERRO! Complete todos os CAMPOS`)
 
@@ -20,10 +22,20 @@ function calcular () {
             var nn3= Number (numb3.value)
 
             for (var c = nn1; c <= nn2; c= c + nn3) { 
-                res.innerHTML += `${c} `
+                res.innerHTML += ` ${c}  \u{1F929}`    // formatação de emoji  \u{codigo sem o u+}
 
             }
 
-    } 
+          
+    }
+
+
+
+
+
+
+
+
+
 
 }
