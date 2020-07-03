@@ -1,0 +1,27 @@
+body {
+    background-color: #533745;
+    color: #C4A287;
+    font: 22pt;
+}
+
+h1 {
+    color: antiquewhite;
+    font: normal 33pt Arial;
+}
+
+
+header {
+    color: #AB4E68;
+    text-align: center;
+
+}
+
+
+section {
+    background: #ffeeee;
+    border-radius: 10px;    /* borda*/
+    padding: 15px; 
+    width: 500px; 
+    margin: auto;
+    box-shadow: 3px 3px 10px  rgb(27, 27, 27);
+    text-align: center;
