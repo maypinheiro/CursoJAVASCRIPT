@@ -1,0 +1,10 @@
+var num =[5,2,8,9,3]
+num.sort ()
+console.log (num)
+console.log (`o vetor tem ${num.length} posicoes`)
+console.log (num[0])
+num.push ('10')
+console.log  (` ${num}`)
+console.log (`O vetor tem ${num.length} posicoes agora`)
+console.log ( num[4])
+console.log (`O primeiro elemento do vetor é ${num[1]}`)
