@@ -1,18 +1,18 @@
 body {
     background-color: #416788;
-    color:#8EE3F5;
-    font: 22pt;
+    
 }
 
 h1 {
     color: #53DD6C;
-    font: normal 33pt Arial;
+    font-size:70px;
+
 }
-
-
 header {
-    color:#f3e7e7;
+    color:#f1f5f5;
    text-align: center; 
+  font: normal ;
+  font-size:30px;
 
 }
 
@@ -21,12 +21,16 @@ section {
     background:#F95738;
     border-radius: 10px;    /* borda*/
     padding: 15px; 
-    width: 500px; 
+    width: 70%; 
+    height: 101%;
     margin: auto;
     box-shadow: 3px 3px 10px  rgb(27, 27, 27);
     text-align: center;
 }
 select#flista {
-    width: 150px;
+    width: 100%;     /* tamanho */
+    float: left;    /*  centralização. */
+    font-size: 33px;
 }
+    
 
