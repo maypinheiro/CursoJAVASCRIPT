@@ -10,14 +10,14 @@ for (var pos=0; pos < valores.length; pos++) {
     -------------------------------------------
     ---- forma simplificada de usar array ----
     -------------------------------------------
-    var valores =[8,1,7,4,2,9]
+    var valores = [8,1,7,4,2,9]
 
     for (var pos in valores) {
     console.log  ( `A posição ${pos} tem os valor ${valores[pos]}`) 
  }
  
  */ 
-var pos = valores.indexOf (10)
+var pos = valores.indexOf (4)
  if (pos == -1) {
      console.log (` O valor não foi encontrado `)
  } else { 
